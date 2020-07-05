@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MarsRoverProhect\MarsRoverProject.csproj">
+    <ProjectReference Include="..\MarsRoverProject\MarsRoverProject.csproj">
       <Project>{75B5EA2C-796C-4D39-B237-F2DEFB5CB3BA}</Project>
       <Name>MarsRoverProject</Name>
     </ProjectReference>
