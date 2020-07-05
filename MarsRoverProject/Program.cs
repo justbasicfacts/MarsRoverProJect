@@ -8,7 +8,6 @@ namespace MarsRoverProject
     {
         static void Main(string[] args)
         {
-            //Pleatue does not implemented, because there wasn't any test case regarding the pleatue
             string pleatueSize = Console.ReadLine();
             string roverData1 = Console.ReadLine();
             string roverCommand1 = Console.ReadLine();
