@@ -20,8 +20,10 @@ namespace MarsRoverProjectTests
         [TestMethod]
         public void CanSpinRight()
         {
-            Rover rover = new Rover();
+            Rover rover = new Rover("1 5 W", GetPlateau());
             rover.SpinRight();
+
+            Assert.IsTrue(rover.CurrentDirection == MarsRoverProject.Enums.DirectionEnum.North);
         }
 
         [TestMethod]
